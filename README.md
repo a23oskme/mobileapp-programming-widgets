@@ -3,6 +3,9 @@
 
 **Skriv din rapport här!**
 
+- La till ID till textview
+- La till en knapp och gav den ett ID och gav den constraints
+
 _Du kan ta bort all text som finns sedan tidigare_.
 
 ## Följande grundsyn gäller dugga-svar:
