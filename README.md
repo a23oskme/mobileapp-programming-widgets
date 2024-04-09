@@ -1,12 +1,23 @@
 
-# Rapport
+# Rapport Oskar Steise 
 
-**Skriv din rapport här!**
+- Jag har valt att använda en constraint layout för att presentera mina views. 
+- Jag har lagt till ett antal olika views, i form av en toolbar, en calender, en text och en knapp.
+- Samtliga har fått lämpliga ID:n och har placerats ut i förhållande till varandra. Kalendern har
+exempelvis fått 'constraints' att dess top ska förhålla sig till botten av toolbaren och dess botten
+till toppen av texten under. Detta kan ses i kodsnutten under. 
+```
+    <CalendarView
+        android:id="@+id/myCalendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/myText"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        />
+```
 
-- La till ID till textview
-- La till en knapp och gav den ett ID och gav den constraints
-
-_Du kan ta bort all text som finns sedan tidigare_.
 
 ## Följande grundsyn gäller dugga-svar:
 
@@ -38,8 +49,3 @@ Bilder läggs i samma mapp som markdown-filen.
 
 ![](android.png)
 
-Läs gärna:
-
-- Boulos, M.N.K., Warren, J., Gong, J. & Yue, P. (2010) Web GIS in practice VIII: HTML5 and the canvas element for interactive online mapping. International journal of health geographics 9, 14. Shin, Y. &
-- Wunsche, B.C. (2013) A smartphone-based golf simulation exercise game for supporting arthritis patients. 2013 28th International Conference of Image and Vision Computing New Zealand (IVCNZ), IEEE, pp. 459–464.
-- Wohlin, C., Runeson, P., Höst, M., Ohlsson, M.C., Regnell, B., Wesslén, A. (2012) Experimentation in Software Engineering, Berlin, Heidelberg: Springer Berlin Heidelberg.
