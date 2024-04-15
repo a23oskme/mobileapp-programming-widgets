@@ -6,6 +6,7 @@
 - Samtliga har fått lämpliga ID:n och har placerats ut i förhållande till varandra. Kalendern har
 exempelvis fått 'constraints' att dess top ska förhålla sig till botten av toolbaren och dess botten
 till toppen av texten under. Detta kan ses i kodsnutten under. 
+- Deusstom har jag lagt till margin åt alla håll på TextView och i botten på knappen. 
 ```
     <CalendarView
         android:id="@+id/myCalendar"
